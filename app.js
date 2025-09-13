@@ -16,7 +16,11 @@ app.use(express.static(path.join(__dirname,"public")));
 app.set("view engine","ejs");
 app.set("views", path.join(__dirname, "views"));
 
+// import your router
+const indexRouter = require("./routes/index");
 
+// use your router
+app.use("/", indexRouter);
 
 app.use("/owners",ownersRouter);
 app.use("/users",usersRouter);
