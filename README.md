@@ -46,7 +46,7 @@ npm install
 ```
 PORT=3000
 MONGO_URI=
-SESSION_SECRET=y
+SESSION_SECRET=
 ```
 
 4. **Run the application**
