@@ -45,8 +45,8 @@ npm install
 
 ```
 PORT=3000
-MONGO_URI=mongodb://localhost:27017/cartify
-SESSION_SECRET=yourSecretKey
+MONGO_URI=
+SESSION_SECRET=y
 ```
 
 4. **Run the application**
